@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>CV de Mariano - Formulario</title>
+        <meta charset="UTF-8">        
+    </head>
+    <body>
+        <div>
+            <h2>Formulario de Contacto</h2>
+            <form action="" method="">
+                <p>
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" />
+                </p>
+                <p>
+                    <label for="nacion">Nacionalidad</label>
+                    <select name="nacion">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Peru</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="genero">Genero</label>                
+                    <ul>                    
+                        <li><input type="radio" name="genero"  value="mujer"><label>Mujer</label></li>
+                        <li><input type="radio" name="genero"  value="hombre"><label>Hombre</label></li>
+                        <li><input type="radio" name="genero"  value="otro"><label>Otro</label></li>
+                    </ul>
+                </p>    
+                <p>
+                    <label>Intereses</label>
+                    <ul>
+                        <li><input type="checkbox" name="interes[]" value="deporte" id="deporte">
+                            <label for="deporte">Deporte</label>
+                        </li>
+                        <li><input type="checkbox" name="interes[]" value="estudio" id="estudio">
+                            <label for="estudio">Estudio</label>
+                        </li>
+                        <li><input type="checkbox" name="interes[]" value="viaje" id="viaje">
+                            <label for="viaje">Viajar</label>
+                        </li>
+                        <li><input type="checkbox" name="interes[]" value="otro" id="otro">
+                            <label for="otro">Otros</label>
+                        </li>                        
+                    </ul>
+                </p>
+                <p>
+                    <label for="estudios">Nivel de Estudios</label>
+                    <select name="estudios">
+                        <option value="primario">Primario</option>
+                        <option value="secundario">Secundario</option>
+                        <option value="terciario">Terciario</option>
+                        <option value="universitario">Universitario</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comentarios">Comentarios Adicionales</label>
+                    <textarea name="comentarios"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar Datos</button>
+                        
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

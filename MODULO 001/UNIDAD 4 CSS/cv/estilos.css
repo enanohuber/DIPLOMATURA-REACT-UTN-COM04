@@ -1,0 +1,51 @@
+*{
+	font-size: 16px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	background-color: grey;
+}
+
+
+.contenedor{	
+	width: 80%;
+	padding: 10px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+h2{
+	margin: 5px;
+	font-size: 20px;
+}
+
+h4{
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: rgb(255,0,0);
+}
+
+.titulo{	
+	text-align: center;
+}
+
+.titulo img{
+	width: 80%;
+}
+
+.detalle{
+	text-align: justify;
+}
+
+p{
+	padding: 5px;
+}
+
+
+ul{
+	font-weight: bolder;
+}
