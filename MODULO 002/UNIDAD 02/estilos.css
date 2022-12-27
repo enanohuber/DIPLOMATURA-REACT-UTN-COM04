@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.principal{
+    margin-top: 75px;
+}
+
+.pseudo{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.pseudo p{
+    margin-bottom: 10px;
+}
+
+.pseudo p::first-line{
+    color: blue;
+}
+
+.pseudo:hover{
+    color: red;
+}
+
+.pseudo p:nth-child(2){
+    font-weight: bolder;
+}
+
+.enlace a::after{
+    content: "%";
+}
+
+.enlace a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;    
+}
+
+.enlace{
+    position: fixed;    
+    top: 0px;     
+    left:0px;
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    background-color: red;
+    columns: #fff;
+    border: 2px solid #000;
+    padding: 10px;    
+}
