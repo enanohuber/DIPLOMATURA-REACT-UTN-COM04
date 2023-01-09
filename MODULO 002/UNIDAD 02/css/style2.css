@@ -19,7 +19,7 @@
 }
 
 .secciones{      
-    flex:1 ;
+    flex: 1;
     height: 33.33%;    
     display: flex;
     align-items: center;
