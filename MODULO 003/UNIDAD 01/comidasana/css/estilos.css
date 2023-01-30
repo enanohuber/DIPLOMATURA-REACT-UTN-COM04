@@ -203,8 +203,8 @@ main p{
 
 .producto .titulo{
     color: #003333;
-    text-align: center;
-    font-size: 32px;
+    text-align: left;
+    font-size: 28px;
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -315,6 +315,23 @@ input:focus, textarea:focus {
 }
 
 /* aca termina contactos*/
+
+/*Inicio galeria*/
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria img{
+    width: 30%;
+    border: 1px solid #003333;
+    padding: 0.3em;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
 footer{
     padding: 15px;    
     height: 200px;
