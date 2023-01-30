@@ -137,10 +137,10 @@ main p{
     box-sizing: border-box;
 }
 
-.persona img{
-    border-radius: 10%;
-    width: 100%;
-    max-height: 130px;
+.persona .foto img{
+    border-radius: 50%;
+    width: 90%;
+    max-height: 150px;
     /* max-width: 60%; */
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
@@ -377,16 +377,21 @@ footer .flogo{
         width: 100%;
         display: flex ;
         margin-bottom: 10px;
-        gap: 10px
+        gap: 10px;        
+        justify-content: center;
+        align-items: center;
+
     }
 
     .persona .foto{
-        width: 30%;        
+        width: 30%;       
+        max-height: 100%;        
     }
 
-    .persona .foto img{
-        width: 100%;        
+    .persona .foto img{ 
         max-height: 200px;
+        border-radius: 10%;        
+    
     }
  
     
