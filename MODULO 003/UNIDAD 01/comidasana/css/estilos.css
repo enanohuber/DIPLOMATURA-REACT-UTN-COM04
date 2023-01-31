@@ -239,7 +239,7 @@ main p{
     padding: 5px;
     color: #fff;    
     float: left;
-    width: 40%;    
+    width: 50%;    
 }
 
 .producto .venta .info{
@@ -263,7 +263,9 @@ main p{
 
 /* aca empieza contactos*/
 .contacto{
-    width: 100%;        
+    width: 80%;        
+    margin:0 auto ;
+    border-radius: 5px;
 }
 
 .tablacontacto{
@@ -280,8 +282,9 @@ main p{
 
 .tablacontacto td:nth-child(even){
     width: 70%;
-    background-color: #999933;  
     background-color: #fff;  
+    background-color: #999933;  
+    
 }
 
 .tablacontacto td{
@@ -290,30 +293,42 @@ main p{
 
 input[type="text"] {
     width: 100%;
+    padding: 5px;
+    border-radius: 5px;
 }
 
+input[type="date"] {
+    border-radius: 5px;
+    padding: 5px;
+}
 input[type="mail"] {
     width: 100%;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
 textarea {
     width: 100%;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 input:focus, textarea:focus {
-    background   : rgba(0,0,0,.5);    
+    background   : rgba(0,0,0,.5);        
   }
 
  .contacto .enviar {
     background-color: #999933;
     border-radius: 5px;
     padding: 5px;
-    color: #fff;    
-    float: right;    
+    color: #fff;        
     width: 100%;    
 }
 
+fieldset{
+    border-radius: 5px;
+}
 .contacto .enviar:hover{
     background-color: rgba(0,0,0,0.8);    
 }
@@ -415,8 +430,6 @@ footer .flogo{
     
     }
  
-    
-
     .texto{
         text-align: left;
         width: 70%;
@@ -424,6 +437,19 @@ footer .flogo{
     
     .producto{
         width: 49%;
+    }
+
+    .producto .titulo{
+        font-size: 18px;
+        font-weight:normal;
+    }
+    
+    .productos{
+        padding: 3px;
+    }
+    
+    .contacto{
+        width: 100%;
     }
 
 }
