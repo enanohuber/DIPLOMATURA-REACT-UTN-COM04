@@ -180,11 +180,11 @@ main p{
 
 
 .producto{
-    width: 30%;
+    width: 22%;
     border: 1px solid #ccc;
     border-radius: 5px;    
     text-align: left;
-    padding: 13px;    
+    padding: 5px;    
 }
 
 
@@ -192,7 +192,7 @@ main p{
 .producto img{
     border-radius: 10%;
     width: 100%;
-    max-height: 200px;
+    max-height: 150px;
     /* max-width: 60%; */
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
@@ -204,7 +204,7 @@ main p{
 .producto .titulo{
     color: #003333;
     text-align: left;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -220,6 +220,10 @@ main p{
     margin: 0;
     font-weight: bold;
     color: #7E000C;
+}
+
+.producto .texto .descripcion{        
+    font-size: 12px;
 }
 
 .producto .venta{
@@ -321,7 +325,7 @@ input:focus, textarea:focus {
 .galeria{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .galeria img{
