@@ -90,75 +90,77 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsam quidem ducimus voluptates dolores laudantium modi. Reprehenderit a, repellendus voluptatem voluptatum, porro pariatur ratione, reiciendis obcaecati deserunt tempora quis laudantium.
                 Laudantium dolores, asperiores blanditiis odio dolore debitis deleniti quo animi quae, iste harum nesciunt suscipit expedita tempora soluta? Odio aut sint, accusamus quisquam consectetur ratione. Necessitatibus aliquid ratione nemo officiis?
                 Ad dignissimos laborum eligendi doloremque vel quod illum magnam, porro temporibus error assumenda, aspernatur non fugit id nisi dolorem, enim possimus praesentium autem? In magni labore molestiae sequi aliquam repellendus.</p>
-                <form action="" class="contacto">
-                    <table class="tablacontacto">
-                        <tr>
-                            <td><label for="mail">Mail</label></td>
-                            <td><input type="mail" id="mail" placeholder="ingrese un mail"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="nombre">Nombre</label></td>
-                            <td><input type="text" id="nombre" placeholder="nombre y apellido"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="">Fecha de Nacimiento</label></td>
-                            <td><input type="date"></td>
-                        </tr>
-                        <td><label for="">Ud es</label></td>
-                        <td>
-                            <fieldset>
-                                <input type="radio" name="genero" value="mujer" id="mujer"> <label for="mujer">Mujer</label> 
-                                <br>
-                                <input type="radio" name="genero" value="hombre" id="hombre"> <label for="hombre">Hombre</label> 
-                                <br>
-                                <input type="radio" name="genero" value="otro" id="otro"> <label for="otro">Otro</label>                                 
-                            </fieldset>                                
-                        </td>
-
-                        <tr>
-                            <td><label for="telefono">Telefono</label></td>
-                            <td><input type="text" id="telefono"></td>
-                        </tr>
-                        <tr>
-                            <td><label for="">Tenes Interes por La comida Sana</label></td>
+                <div class="contieneform">
+                    <form action="" class="contacto">
+                        <table class="tablacontacto">
+                            <tr>
+                                <td><label for="mail">Mail</label></td>
+                                <td><input type="mail" id="mail" placeholder="ingrese un mail"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="nombre">Nombre</label></td>
+                                <td><input type="text" id="nombre" placeholder="nombre y apellido"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Fecha de Nacimiento</label></td>
+                                <td><input type="date"></td>
+                            </tr>
+                            <td><label for="">Ud es</label></td>
                             <td>
                                 <fieldset>
-                                    <input type="radio" name="interes" value="interesado" id="interesado"> <label for="interesado">Estoy interesado</label> 
+                                    <input type="radio" name="genero" value="mujer" id="mujer"> <label for="mujer">Mujer</label> 
                                     <br>
-                                    <input type="radio" name="interes" value="indeciso" id="indeciso"> <label for="indeciso">Estoy indeciso</label> 
+                                    <input type="radio" name="genero" value="hombre" id="hombre"> <label for="hombre">Hombre</label> 
                                     <br>
-                                    <input type="radio" name="interes" value="no_interesado" id="no_interesado"> <label for="no_interesado">No me interesa</label>                                 
+                                    <input type="radio" name="genero" value="otro" id="otro"> <label for="otro">Otro</label>                                 
                                 </fieldset>                                
                             </td>
-                        </tr>
-                        <tr>
-                            <td><label>Seleccione su preferencia en Alimentos</label></td>
-                            <td>
-                            <fieldset>
-                            <input type="checkbox" value="" id="vegetales">
-                            <label  for="vegetales">Vegetales</label>
-                            <br>
-                            <input type="checkbox" value="" id="frutas">
-                            <label for="carnes">frutas</label>
-                            <br>
-                            <input type="checkbox" value="" id="carnes">
-                            <label for="carnes">Carnes</label>
-                            <br>
-                            <input type="checkbox" value="" id="pescado">
-                            <label for="pescado">Pescado</label>
-                            </fieldset>                          
-                            </td>
-                        </tr>
-                        <tr>                            
-                            <td colspan="2"><textarea id="comentario" style="height: 250px" placeholder="su comentario / sugerencia nos importa"></textarea></tr></td>
-                        </tr>
-                        <tr>                            
-                            <td colspan="2" style="text-align: right;">
-                                <button class="enviar">Enviar Datos</button>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
+
+                            <tr>
+                                <td><label for="telefono">Telefono</label></td>
+                                <td><input type="text" id="telefono"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="">Tenes Interes por La comida Sana</label></td>
+                                <td>
+                                    <fieldset>
+                                        <input type="radio" name="interes" value="interesado" id="interesado"> <label for="interesado">Estoy interesado</label> 
+                                        <br>
+                                        <input type="radio" name="interes" value="indeciso" id="indeciso"> <label for="indeciso">Estoy indeciso</label> 
+                                        <br>
+                                        <input type="radio" name="interes" value="no_interesado" id="no_interesado"> <label for="no_interesado">No me interesa</label>                                 
+                                    </fieldset>                                
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>Seleccione su preferencia en Alimentos</label></td>
+                                <td>
+                                <fieldset>
+                                <input type="checkbox" value="" id="vegetales">
+                                <label  for="vegetales">Vegetales</label>
+                                <br>
+                                <input type="checkbox" value="" id="frutas">
+                                <label for="carnes">frutas</label>
+                                <br>
+                                <input type="checkbox" value="" id="carnes">
+                                <label for="carnes">Carnes</label>
+                                <br>
+                                <input type="checkbox" value="" id="pescado">
+                                <label for="pescado">Pescado</label>
+                                </fieldset>                          
+                                </td>
+                            </tr>
+                            <tr>                            
+                                <td colspan="2"><textarea id="comentario" style="height: 250px" placeholder="su comentario / sugerencia nos importa"></textarea></tr></td>
+                            </tr>
+                            <tr>                            
+                                <td colspan="2" style="text-align: right;">
+                                    <button class="enviar">Enviar Datos</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
             </main>
             <!-- PIE -->            
             <footer>

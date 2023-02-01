@@ -263,8 +263,12 @@ main p{
 /* aca termina productos*/
 
 /* aca empieza contactos*/
+.contieneform{
+    padding: 10px; border: 2px solid #000;margin: 10px auto; width: 80%;
+    border-radius: 10px; background-color: #003333;
+}
 .contacto{
-    width: 80%;        
+    width: 100%;        
     margin:0 auto ;
     border-radius: 5px;
 }
@@ -282,10 +286,9 @@ main p{
 }
 
 .tablacontacto td:nth-child(even){
-    width: 70%;
-    background-color: #fff;  
+    width: 70%;    
     background-color: #999933;  
-    
+    background-color: #fff;      
 }
 
 .tablacontacto td{
