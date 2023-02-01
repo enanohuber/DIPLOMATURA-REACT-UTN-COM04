@@ -110,7 +110,7 @@ h2{
 main p{
     text-align: justify;
     font-size: 16px;
-    padding: 0 10px;
+    padding: 0px;
 }
 
 
@@ -140,7 +140,7 @@ main p{
 .persona .foto img{
     border-radius: 50%;
     width: 90%;
-    max-height: 150px;
+    max-height: 100px;
     /* max-width: 60%; */
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
@@ -202,10 +202,11 @@ main p{
 }
 
 .producto .titulo{
-    color: #003333;
+    /*color: #003333;*/
     text-align: left;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 20px;    
+    /*text-transform: uppercase;*/
+    text-rendering: optimizeLegibility;    
     padding: 0;
     margin: 0;
 }
@@ -386,11 +387,12 @@ footer .flogo{
     }
 
     h1, h2, h3, h4, h5, h6 {
-        padding-left: 10px;
+        padding-left: 0px;
     }
     main{        
         display: block;
         width: 100%;
+        padding: 0 10px;
     }
 
     .banner{
@@ -442,6 +444,7 @@ footer .flogo{
     .producto .titulo{
         font-size: 18px;
         font-weight:normal;
+
     }
     
     .productos{
