@@ -327,11 +327,11 @@ input[type="mail"] {
     border-radius: 5px;
 }
 
-
 textarea {
     width: 100%;
     padding: 5px;
     border-radius: 5px;
+    resize: none;
 }
 
 input:focus, textarea:focus {
@@ -395,7 +395,9 @@ footer .fderecha{
 }
 
 footer .flogo{
-    width: 100%;
+    width: 150px;
+    height: auto;
+    max-width: 200px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;            
 }
@@ -415,6 +417,36 @@ footer .flogo{
             max-width: 140px;        
         }
     
+        .flogo{
+            display: none;
+            
+        }
+
+
+        .fderecha{
+            display: none;
+        }
+
+        footer{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0;
+            height: 150px;
+        }
+        .fizquierda{
+            width: 100%;   
+            font-size: 20px;                     
+        }
+
+        #direccion::after{            
+            content: "Alvarado 226";
+        }
+
+        #ciudad::after{            
+            content: "Salta -  Argentina";
+        }
 }    
 
 @media screen and (max-width: 980px){
