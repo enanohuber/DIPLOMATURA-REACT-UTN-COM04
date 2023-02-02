@@ -41,35 +41,36 @@ amarillo suave #F0EFCC
     width: 80%;
     margin: 0;    
     margin-left: auto;
-	margin-right:auto;
+	margin-right:auto;    
 	/* overflow: hidden; */
 }
 
 .header{
     width: 100%;
     background-color:#EAECEE;
-    padding: 20px;
+    padding: 5px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
+    flex-wrap: wrap;    
+    height: 140px;
+    max-height: 140px;
 }
 
 .logo{
     filter: brightness(1.1);
-    mix-blend-mode: multiply;    
-    width: 50%;
+    mix-blend-mode: multiply;        
+    max-width: 180px;    
 }
 
 .logo1{    
     width: 50%;
-    text-align: left;
+    padding: 5px;
+    text-align: left;        
+    
 }
 
 .logo2{    
     width: 50%;
-    text-align: right;
+    text-align: right;    
 }
 
 .barramenu{
@@ -106,12 +107,27 @@ h2{
 }
 /* aca comienza el maain*/
 
+.indexcolumna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+main .indexcolumna .texto{
+    width: 70%;
+
+}
+
+main .indexcolumna .telefono{
+    width: 30%;
+}
 
 main p{
     text-align: justify;
     font-size: 16px;
     padding: 0px;
 }
+
 
 
 /* aca termina el main*/
@@ -267,13 +283,13 @@ main p{
     padding: 10px; border: 2px solid #000;margin: 10px auto; width: 80%;
     border-radius: 10px; background-color: #003333;
 }
-.contacto{
+.contacto{    
     width: 100%;        
     margin:0 auto ;
     border-radius: 5px;
 }
 
-.tablacontacto{
+.tablacontacto{    
     width: 100%;    
     border: 0px solid;        
     margin: 5px 0;    
@@ -295,6 +311,10 @@ main p{
     padding: 5px;        
 }
 
+.columna2{
+    color: #fff;
+    font-weight: normal;
+}
 input[type="text"] {
     width: 100%;
     padding: 5px;
@@ -384,7 +404,27 @@ footer .flogo{
     mix-blend-mode: multiply;            
 }
 
+@media screen and (max-width: 500px){
+    /*  */
+    
+        .logo1{
+            width: 40%;
+        }
+    
+        .logo2{
+            width: 60%;        
+        }
+    
+        .logo{
+            max-width: 140px;        
+        }
+    
+}    
+
 @media screen and (max-width: 980px){
+/*  */
+
+
     .contenedor80{
         width: 100%;        
     }
@@ -459,8 +499,12 @@ footer .flogo{
         width: 100%;
     }
 
-    .logo{
-        width: 60%;
+    .contieneform{
+        width: 95%;
     }
+
+    
+
+
 }
     
