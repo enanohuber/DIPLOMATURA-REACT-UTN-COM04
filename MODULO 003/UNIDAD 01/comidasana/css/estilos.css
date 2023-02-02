@@ -280,13 +280,12 @@ main p{
 
 /* aca empieza contactos*/
 .contieneform{
-    padding: 10px; border: 2px solid #000;margin: 10px auto; width: 80%;
-    border-radius: 10px; background-color: #003333;
+    padding: 10px; border: 2px solid #000;margin: 5px auto; 
+    border-radius: 10px; background-color: #003333;    
 }
 .contacto{    
     width: 100%;        
-    margin:0 auto ;
-    border-radius: 5px;
+    margin:0 auto ;    
 }
 
 .tablacontacto{    
@@ -311,10 +310,7 @@ main p{
     padding: 5px;        
 }
 
-.columna2{
-    color: #fff;
-    font-weight: normal;
-}
+
 input[type="text"] {
     width: 100%;
     padding: 5px;
@@ -405,8 +401,8 @@ footer .flogo{
 }
 
 @media screen and (max-width: 500px){
-    /*  */
-    
+
+        
         .logo1{
             width: 40%;
         }
@@ -423,8 +419,6 @@ footer .flogo{
 
 @media screen and (max-width: 980px){
 /*  */
-
-
     .contenedor80{
         width: 100%;        
     }
@@ -499,9 +493,6 @@ footer .flogo{
         width: 100%;
     }
 
-    .contieneform{
-        width: 95%;
-    }
 
     
 
