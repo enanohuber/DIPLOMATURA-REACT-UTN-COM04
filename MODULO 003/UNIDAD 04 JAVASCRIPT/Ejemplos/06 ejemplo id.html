@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    </head>
+
+    <body>
+    	<div id="primero">
+    		Soy el div con id "primero" <span>nnklnl</span>
+    	</div>
+
+    	<div id="segundo">
+    		Soy el div con id "segundo"
+    	</div>
+
+    	<script>
+    		const primero = document.getElementById('primero');			
+    		primero.style.backgroundColor = 'blue';
+			primero.style.color = "white";
+			primero.style.padding = '10px';
+
+			primero.style = "color: red; background-color: yellow; padding: 20px";
+			
+			primero.addEventListener('click',function(){
+					alert('pasarela');
+			},false)
+
+/* 			const segundon = document.getElementById('segundo');
+			segundon.remove();
+ */    	</script>
+    </body>
+</html>

@@ -75,7 +75,8 @@ amarillo suave #F0EFCC
 
 .barramenu{
     background-color: #999933;
-    background-color:#003333;
+    background-color:#003333;    
+    
     
     width: 100%;
     
@@ -90,6 +91,7 @@ amarillo suave #F0EFCC
     border-radius: 10px;
     
 }
+
 
 .banner{
     width: 100%;
@@ -435,6 +437,10 @@ footer .flogo{
             padding: 0;
             height: 150px;
         }
+        .banner{
+            max-height: 200px;
+        }
+    
         .fizquierda{
             width: 100%;   
             font-size: 20px;                     

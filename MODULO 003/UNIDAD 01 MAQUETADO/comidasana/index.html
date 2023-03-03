@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/estilos.css">      
     <title>Comida Sana</title>
+    <script>
+
+    </script>
 </head>
 <body>
     <div class="contenedor100">
@@ -42,30 +45,29 @@
                         <li>Alvarado 226</li>
                         <li>Salta (Argentina)</li>
                     </ul>
-
                 </div>      
             </div>  
             <!-- MENU -->
             <nav class="navbar navbar-expand-lg barramenu" data-bs-theme="dark">    
             <div class="container-fluid">                    
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                 <button class="navbar-toggler" style="background-color: #999933;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
                     <span class="navbar-toggler-icon" ></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" style="padding-left: 5px;" aria-current="page" href="index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
                         <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
                         <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="novedades.html">Novedades</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>                            
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>                            
                     </ul>                
                 </div>
             </nav>        
             <!-- CARROUSEL -->
-<!--             <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -91,89 +93,35 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>      
- -->            <!-- MAIN -->
+            <!-- MAIN -->
             <main>
                 <h1>HEALTHY FOOD</h1>
-                <h2>Mandanos un Mensaje</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ipsam quidem ducimus voluptates dolores laudantium modi. Reprehenderit a, repellendus voluptatem voluptatum, porro pariatur ratione, reiciendis obcaecati deserunt tempora quis laudantium.
-                Laudantium dolores, asperiores blanditiis odio dolore debitis deleniti quo animi quae, iste harum nesciunt suscipit expedita tempora soluta? Odio aut sint, accusamus quisquam consectetur ratione. Necessitatibus aliquid ratione nemo officiis?
-                Ad dignissimos laborum eligendi doloremque vel quod illum magnam, porro temporibus error assumenda, aspernatur non fugit id nisi dolorem, enim possimus praesentium autem? In magni labore molestiae sequi aliquam repellendus.</p>
-                <div class="contieneform">                    
-                    <form action="" class="contacto">
-                        <table class="tablacontacto">
-                            <tr>
-                                <td><label for="mail">Mail</label></td>
-                                <td><input type="mail" id="mail" placeholder="ingrese un mail"></td>
-                            </tr>
-                            <tr>
-                                <td><label for="nombre">Nombre</label></td>
-                                <td><input type="text" id="nombre" placeholder="nombre y apellido"></td>
-                            </tr>
-                            <tr>
-                                <td><label for="">Fecha de Nacimiento</label></td>
-                                <td><input type="date"></td>
-                            </tr>
-                            <td><label for="">Ud es</label></td>
-                            <td>
-                                <fieldset>
-                                    <input type="radio" name="genero" value="mujer" id="mujer"> <label for="mujer">Mujer</label> 
-                                    <br>
-                                    <input type="radio" name="genero" value="hombre" id="hombre"> <label for="hombre">Hombre</label> 
-                                    <br>
-                                    <input type="radio" name="genero" value="otro" id="otro"> <label for="otro">Otro</label>                                 
-                                </fieldset>                                
-                            </td>
-
-                            <tr>
-                                <td><label for="telefono">Telefono</label></td>
-                                <td><input type="text" id="telefono"></td>
-                            </tr>
-                            <tr>
-                                <td><label for="">Tenes Interes por La comida Sana</label></td>
-                                <td>
-                                    <fieldset>
-                                        <input type="radio" name="interes" value="interesado" id="interesado"> <label for="interesado">Estoy interesado</label> 
-                                        <br>
-                                        <input type="radio" name="interes" value="indeciso" id="indeciso"> <label for="indeciso">Estoy indeciso</label> 
-                                        <br>
-                                        <input type="radio" name="interes" value="no_interesado" id="no_interesado"> <label for="no_interesado">No me interesa</label>                                 
-                                    </fieldset>                                
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><label>Seleccione su preferencia en Alimentos</label></td>
-                                <td>
-                                <fieldset>
-                                <input type="checkbox" value="" id="vegetales">
-                                <label  for="vegetales">Vegetales</label>
-                                <br>
-                                <input type="checkbox" value="" id="frutas">
-                                <label for="carnes">frutas</label>
-                                <br>
-                                <input type="checkbox" value="" id="carnes">
-                                <label for="carnes">Carnes</label>
-                                <br>
-                                <input type="checkbox" value="" id="pescado">
-                                <label for="pescado">Pescado</label>
-                                </fieldset>                          
-                                </td>
-                            </tr>
-                            <tr>                            
-                                <td colspan="2"><textarea id="comentario" style="height: 250px" placeholder="su comentario / sugerencia nos importa"></textarea></tr></td>
-                            </tr>
-                            <tr>                            
-                                <td colspan="2" style="text-align: right;">
-                                    <button class="enviar">Enviar Datos</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </form>                
-                </div>
+                <h2>Comida Sana & Saludable</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab quas impedit labore veniam voluptatum, esse doloremque praesentium officia qui enim porro placeat excepturi dolore dolores vel repellendus delectus harum.
+                Ab sed vel, atque reprehenderit deleniti voluptatibus sunt tempore mollitia ea optio nobis aliquid, commodi, reiciendis culpa voluptas excepturi laborum totam. Autem quis itaque amet aperiam delectus, ullam officiis blanditiis?
+                Ipsa corrupti quas voluptatem unde autem repellat earum quisquam aliquam perspiciatis, et iusto rerum reiciendis veniam, voluptate fuga quam sunt voluptas quasi. Exercitationem minus possimus ipsa nesciunt sequi assumenda quos?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab quas impedit labore veniam voluptatum, esse doloremque praesentium officia qui enim porro placeat excepturi dolore dolores vel repellendus delectus harum.
+                    Ab sed vel, atque reprehenderit deleniti voluptatibus sunt tempore mollitia ea optio nobis aliquid, commodi, reiciendis culpa voluptas excepturi laborum totam. Autem quis itaque amet aperiam delectus, ullam officiis blanditiis?
+                    Ipsa corrupti quas voluptatem unde autem repellat earum quisquam aliquam perspiciatis, et iusto rerum reiciendis veniam, voluptate fuga quam sunt voluptas quasi. Exercitationem minus possimus ipsa nesciunt sequi assumenda quos?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab quas impedit labore veniam voluptatum, esse doloremque praesentium officia qui enim porro placeat excepturi dolore dolores vel repellendus delectus harum.
+                    Ab sed vel, atque reprehenderit deleniti voluptatibus sunt tempore mollitia ea optio nobis aliquid, commodi, reiciendis culpa voluptas excepturi laborum totam. Autem quis itaque amet aperiam delectus, ullam officiis blanditiis?
+                    Ipsa corrupti quas voluptatem unde autem repellat earum quisquam aliquam perspiciatis, et iusto rerum reiciendis veniam, voluptate fuga quam sunt voluptas quasi. Exercitationem minus possimus ipsa nesciunt sequi assumenda quos?</p>        
+                <h2>Recetas naturales</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab quas impedit labore veniam voluptatum, esse doloremque praesentium officia qui enim porro placeat excepturi dolore dolores vel repellendus delectus harum.
+                Ab sed vel, atque reprehenderit deleniti voluptatibus sunt tempore mollitia ea optio nobis aliquid, commodi, reiciendis culpa voluptas excepturi laborum totam. Autem quis itaque amet aperiam delectus, ullam officiis blanditiis?
+                Ipsa corrupti quas voluptatem unde autem repellat earum quisquam aliquam perspiciatis, et iusto rerum reiciendis veniam, voluptate fuga quam sunt voluptas quasi. Exercitationem minus possimus ipsa nesciunt sequi assumenda quos?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab quas impedit labore veniam voluptatum, esse doloremque praesentium officia qui enim porro placeat excepturi dolore dolores vel repellendus delectus harum.
+                    Ab sed vel, atque reprehenderit deleniti voluptatibus sunt tempore mollitia ea optio nobis aliquid, commodi, reiciendis culpa voluptas excepturi laborum totam. Autem quis itaque amet aperiam delectus, ullam officiis blanditiis?
+                    Ipsa corrupti quas voluptatem unde autem repellat earum quisquam aliquam perspiciatis, et iusto rerum reiciendis veniam, voluptate fuga quam sunt voluptas quasi. Exercitationem minus possimus ipsa nesciunt sequi assumenda quos?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ab quas impedit labore veniam voluptatum, esse doloremque praesentium officia qui enim porro placeat excepturi dolore dolores vel repellendus delectus harum.
+                    Ab sed vel, atque reprehenderit deleniti voluptatibus sunt tempore mollitia ea optio nobis aliquid, commodi, reiciendis culpa voluptas excepturi laborum totam. Autem quis itaque amet aperiam delectus, ullam officiis blanditiis?
+                    Ipsa corrupti quas voluptatem unde autem repellat earum quisquam aliquam perspiciatis, et iusto rerum reiciendis veniam, voluptate fuga quam sunt voluptas quasi. Exercitationem minus possimus ipsa nesciunt sequi assumenda quos?</p>        
+    
             </main>
             <!-- PIE -->            
             <footer>
                 <div class="fizquierda">
-                    <h6>&copy; 2023 HEALTHY FOOD </h6>
+                    <div>&copy; 2023 HEALTHY FOOD </div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
                         viewBox="0 0 16 16">
                         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
@@ -191,11 +139,13 @@
                         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                     </svg>
                     <h6>Comidas Sanas y Saludables.-</h6>
+                    <label id="direccion"></label>
+                    <label id="ciudad"></label>
                 </div>
                 <div class="fderecha">
                     <div>Salta - Argentina</div>
                     <div>Alvarado 226</div>
-                    <div><a href="#"><img class="flogo" src="./img/logo11.jpg" alt=""></a></div>
+                    <div><a href="#"><img class="flogo" src="./img/logo11.jpg" alt=""></a></div>                    
                 </div>
 
             </footer>
