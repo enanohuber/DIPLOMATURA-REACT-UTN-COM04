@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+	<script>
+		function validarForm() {
+			const nombreValido = true;
+			const passWordValido = validarLargo(document.form1.text1.value, 5);
+
+			const resultado = nombreValido && passWordValido;
+			if (resultado) {
+				alert('es valido');
+			} else {
+				alert('NO es valido');
+			}
+		}
+
+		function validarLargo(texto, largoRequerido) {
+			return texto.length >= largoRequerido
+		}
+		
+	</script>
+</head>
+
+<body>
+	<form name="form1">
+		<label>1 Ingrese clave (al menos 5 caracteres):</label> 
+		<br>
+		<label>2 Ingrese clave (al menos 5 caracteres):</label> 
+		<input type="password" name="text1">
+		<input type="button" onclick="validarForm()" value="Enviar">
+	</form>
+
+	<script>
+		const seleccion = document.querySelector('label');
+		seleccion.style = 'color: red;';
+
+		var divAgrega = document.createElement('div');
+		divAgrega.innerHTML= "<br>div creado con js";				
+		document.body.appendChild(divAgrega);
+	</script>	
+</body>
+
+
+</html>

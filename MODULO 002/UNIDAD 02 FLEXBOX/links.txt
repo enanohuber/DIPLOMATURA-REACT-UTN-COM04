@@ -1,0 +1,9 @@
+colorzilla.com/gradient-editor/
+cssgenerator.org/gradient-css-generator.html
+
+google fonts
+
+iconos
+-------
+fontawesome.com
+cdnjs.com/libraries/font-awesome

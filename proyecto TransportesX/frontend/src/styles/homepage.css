@@ -1,0 +1,48 @@
+/* aca va todo lo del home*/
+
+
+.logohome{
+    max-width: 960px;
+    width: 100%;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;    
+}
+
+.bienvenidos p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.testimonios{
+    width: 25%;
+    /* background-color: orange; */
+}
+
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}

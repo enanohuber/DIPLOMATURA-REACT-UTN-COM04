@@ -1,0 +1,12 @@
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}

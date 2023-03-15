@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*crear variables y concatenar en un texto*/
+        const nombre = "Mariano";        
+        const edad = 10;
+        const altura = 1.75;
+        const casado= false;                
+        document.write(`mi nombre es: ${nombre}. <br>Tengo ${edad} años y mi altura es ${altura}`);/*esto va a WEB*/
+        
+        const variable = "Marian";
+        document.write(variable=="Mariano"? "<br>Mi nombre es Mariano" : "<br>no es Mariano");
+    </script>    
+
+    <style>
+        button:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p id="texto"></p>    
+    <input type="text" id="myText" value="valor por defecto">
+    <button id="boton" style="border: 1px solid red; border-radius: 20%; padding: 10px;" onclick="return myFunction();">apretame</button>
+    <button id="botonjs" style="border: 1px solid red; border-radius: 20%; padding: 10px;">apretame JS</button>
+    
+    <script>
+        document.getElementById("myText").value = "valor puesto por javascript en input";
+        /*averiguar cual es el mayor de un array*/
+        let a=[1000,5000,3000,10000,9000,7500]
+        let mayor=0;        
+        for (x=0; x < a.length; x++){
+            console.log (a[x]);
+            if (a[x] > mayor){
+                mayor = a[x];
+            }
+        }        
+
+        /*y pongo el resultado en un <p>, que estaba vacio*/
+        document.getElementById("texto").innerHTML = "el mayor es " + mayor ; 
+        document.getElementById("texto").style.color = "red";
+        document.getElementById("texto").style.fontWeight  = "bolder";
+        document.getElementById("texto").style.fontSize = "28px";
+        
+        /*dos formas de manejar los eventos de botones*/
+        document.getElementById("botonjs").addEventListener("click",myFunction);        
+        function myFunction(){
+            alert ('hola');
+        }
+
+    </script>    
+</body>
+</html>

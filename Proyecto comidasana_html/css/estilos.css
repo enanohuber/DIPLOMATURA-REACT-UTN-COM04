@@ -1,0 +1,539 @@
+
+/*     colores
+    ---------
+verde claro #999933
+bordo #7E000C
+verde mas fuerte #003333
+gris #808080
+violeta #660066
+amarillo suave #F0EFCC    
+
+#EAECEE gris suave
+#4D5656 gris fuerte
+#A6ACAF gris medio */
+
+@font-face{
+    font-family: "Heavy"; 
+    src: url("fonts/kozuka/Heavy.otf");    
+}
+
+@font-face{
+    font-family: "Light"; 
+    src: url("fonts/kozuka/Light.otf"); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor100{
+    width: 100%;
+    margin: 0;    
+    margin-left: auto;
+	margin-right:auto;
+	
+    /* background-color: blue; */
+}
+
+.contenedor80{
+    width: 80%;
+    margin: 0;    
+    margin-left: auto;
+	margin-right:auto;    
+	/* overflow: hidden; */
+}
+
+.header{
+    width: 100%;
+    background-color:#EAECEE;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;    
+    height: 140px;
+    max-height: 140px;
+}
+
+.logo{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;        
+    max-width: 180px;    
+}
+
+.logo1{    
+    width: 50%;
+    padding: 5px;
+    text-align: left;        
+    
+}
+
+.logo2{    
+    width: 50%;
+    text-align: right;    
+}
+
+.barramenu{
+    background-color: #999933;
+    background-color:#003333;    
+    
+    
+    width: 100%;
+    
+}
+
+.nav{
+    width: 100%;    
+}
+
+.active{
+    background-color: rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    
+}
+
+
+.banner{
+    width: 100%;
+    max-height: 350px;
+}
+
+h1{
+    padding: 5px 0;
+    color: #003333;
+    background-color: #999933;
+}
+
+h2{
+    color: #999933;
+}
+/* aca comienza el maain*/
+
+.indexcolumna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+main .indexcolumna .texto{
+    width: 70%;
+
+}
+
+main .indexcolumna .telefono{
+    width: 30%;
+}
+
+main p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px;
+}
+
+
+
+/* aca termina el main*/
+
+/* Aca comienza nosotros */
+
+.staff p{
+    padding: 0 0px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;    
+    margin: 10px 0;
+}
+
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 19%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona .foto img{
+    border-radius: 50%;
+    width: 55%;
+    max-height: 100px;
+    /* max-width: 60%; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.persona h5{
+    margin-top: 5px;
+    font-weight: bolder;
+    color: #003333;
+}
+
+.persona h6{    
+    font-weight: bold;
+    color: #999933;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #999933;
+}
+
+.persona p{
+    color: #000;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.texto p{
+    padding: 0;
+}
+/* Aca termina nosotros */
+
+/*aca comienza productos*/
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+.producto{
+    width: 22%;
+    border: 1px solid #ccc;
+    border-radius: 5px;    
+    text-align: left;
+    padding: 5px;    
+}
+
+
+
+.producto img{
+    border-radius: 10%;
+    width: 100%;
+    max-height: 150px;
+    /* max-width: 60%; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.producto .texto{
+    width: 100%;
+}
+
+.producto .titulo{
+    /*color: #003333;*/
+    text-align: left;
+    font-size: 20px;    
+    /*text-transform: uppercase;*/
+    text-rendering: optimizeLegibility;    
+    padding: 0;
+    margin: 0;
+}
+
+.producto .texto .calorias{
+    margin: 0;
+    font-weight: bolder;
+    color: #000;
+}
+
+.producto .texto .precio{
+    margin: 0;
+    font-weight: bold;
+    color: #7E000C;
+}
+
+.producto .texto .descripcion{        
+    font-size: 12px;
+}
+
+.producto .venta{
+    width: 100%;    
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.producto .venta .compra{
+    background-color: #003333;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;    
+    float: left;
+    width: 50%;    
+}
+
+.producto .venta .info{
+    background-color: #999933;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;    
+    float: right;    
+    width: 40%;    
+}
+
+.producto .venta .compra:hover{
+    background-color: rgba(0,0,0,0.8);    
+}
+
+.producto .venta .info:hover{
+    background-color: rgba(0,0,0,0.8);   
+}
+
+/* aca termina productos*/
+
+/* aca empieza contactos*/
+.contieneform{
+    padding: 10px; border: 2px solid #000;margin: 5px auto; 
+    border-radius: 10px; background-color: #003333;    
+}
+.contacto{    
+    width: 100%;        
+    margin:0 auto ;    
+}
+
+.tablacontacto{    
+    width: 100%;    
+    border: 0px solid;        
+    margin: 5px 0;    
+}
+
+.tablacontacto td:nth-child(odd){
+    width: 30%;
+    background-color: #003333;    
+    color: #fff;    
+}
+
+.tablacontacto td:nth-child(even){
+    width: 70%;    
+    background-color: #999933;  
+    background-color: #fff;      
+}
+
+.tablacontacto td{
+    padding: 5px;        
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="date"] {
+    border-radius: 5px;
+    padding: 5px;
+}
+input[type="mail"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    background   : rgba(0,0,0,.5);        
+  }
+
+ .contacto .enviar {
+    background-color: #999933;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;        
+    width: 100%;    
+}
+
+fieldset{
+    border-radius: 5px;
+}
+.contacto .enviar:hover{
+    background-color: rgba(0,0,0,0.8);    
+}
+
+/* aca termina contactos*/
+
+/*Inicio galeria*/
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 30%;
+    border: 1px solid #003333;
+    padding: 0.3em;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+footer{
+    padding: 15px;    
+    height: 200px;
+    color: #fff;    
+    background-color:#003333;
+    background-color: #999933;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
+    
+}
+
+footer .fizquierda{    
+    width: 70%;
+    text-align: left;
+}
+
+footer .fderecha{    
+    width: 30%;
+    text-align: right;
+}
+
+footer .flogo{
+    width: 150px;
+    height: auto;
+    max-width: 200px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;            
+}
+
+@media screen and (max-width: 500px){
+
+        
+        .logo1{
+            width: 40%;
+        }
+    
+        .logo2{
+            width: 60%;        
+        }
+    
+        .logo{
+            max-width: 140px;        
+        }
+    
+        .flogo{
+            display: none;
+            
+        }
+
+
+        .fderecha{
+            display: none;
+        }
+
+        footer{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0;
+            height: 150px;
+        }
+        .banner{
+            max-height: 200px;
+        }
+    
+        .fizquierda{
+            width: 100%;   
+            font-size: 20px;                     
+        }
+
+        #direccion::after{            
+            content: "Alvarado 226";
+        }
+
+        #ciudad::after{            
+            content: "Salta -  Argentina";
+        }
+}    
+
+@media screen and (max-width: 980px){
+/*  */
+    .contenedor80{
+        width: 100%;        
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        padding-left: 0px;
+    }
+    main{        
+        display: block;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .banner{
+        max-height: 250px;
+    }
+
+    .personas{
+        display: flex;        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }    
+
+    .personas .persona:nth-child(odd){
+        flex-direction: row-reverse;    
+    }
+
+    .persona{
+        width: 100%;
+        display: flex ;
+        margin-bottom: 10px;
+        gap: 10px;        
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .persona .foto{
+        width: 30%;       
+        max-height: 100%;        
+    }
+
+    .persona .foto img{
+        width: 80%; 
+        max-height: 150px;
+        border-radius: 10%;        
+    
+    }
+ 
+    .texto{
+        text-align: left;
+        width: 70%;
+    }
+    
+    .producto{
+        width: 49%;
+    }
+
+    .producto .titulo{
+        font-size: 18px;
+        font-weight:normal;
+
+    }
+    
+    .productos{
+        padding: 3px;
+    }
+    
+    .contacto{
+        width: 100%;
+    }
+
+
+    
+
+
+}
+    

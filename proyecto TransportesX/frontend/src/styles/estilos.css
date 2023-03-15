@@ -1,0 +1,18 @@
+
+/*     font-family: 'Open Sans', sans-serif; */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serfif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}
+

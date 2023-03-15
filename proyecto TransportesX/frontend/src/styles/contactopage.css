@@ -1,0 +1,81 @@
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+/* .contacto h2{
+    color:#6da9ed;
+}
+ */
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario{
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario .tabla{
+    
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.formulario input[type="text"]{
+    width: 80%;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #EAECEE;
+}
+
+.formulario input[type="mail"]{
+    padding: 4px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #EAECEE;
+}
+
+.formulario textarea{
+    padding: 5px;
+    resize: none;
+    height: 150px;
+    width: 80%;    
+    border-radius: 5px;
+    background-color: #EAECEE;
+}
+
+ .formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0 ,0, 0, 0.4);
+    column-rule: white;
+    font-size: 16px;
+    padding: 9px 20px;
+    width: auto;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #2e64a1;
+} 

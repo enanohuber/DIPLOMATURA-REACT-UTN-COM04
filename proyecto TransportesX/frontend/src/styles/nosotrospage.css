@@ -1,0 +1,41 @@
+
+/* aca va todo lo del nosotros*/
+
+.historia p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.persona{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 10%;
+    min-width: 150px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.persona .info h2{
+    color: #2e64a1;    
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 5px;
+}
+
+.persona .info p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+/*.persona:nth-child(even){
+flex-direction: row-reverse;
+}*/

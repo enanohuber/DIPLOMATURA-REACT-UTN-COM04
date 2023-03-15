@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 100%;    
+    position: fixed;
+    top: 0;    
+    border-bottom: 2px solid #000;
+    z-index: 1000;
+}
+
+.tarjetas{
+    padding: 10px; 
+    display: flex; gap:5px; align-items: center; justify-content: center;   
+    flex-wrap: wrap;
+    
+}
+
+
+.tarjeta{
+    background-color:#fff;
+    width: 22%;
+}
+
+.formulario{
+    padding: 50px;
+}
+
+
+@media screen and (max-width:800px){
+    .tarjeta{
+        width: 48%;
+    }
+
+    #carouselExample{
+        display: none;
+    }
+
+}
